@@ -3,3 +3,6 @@ nmap <ip address>
 nmap <domain name>
 nmap -p <port number> <ip address>
 nmap -p <startingrange of port-endingrange of port> <ip address>
+nmap -sV <ip address>               --> server version 
+nmap -p <port number> -sV <ip address>         --> port state service version
+nmap -sV -A <ip address>                    --> Aggresive scan. This could help in exposing the application granular level details.
