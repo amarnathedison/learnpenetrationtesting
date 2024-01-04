@@ -1,0 +1,3 @@
+nmap -iL '<filename which has list of ips>'
+nmap <ip address>
+nmap <domain name>
