@@ -2,3 +2,4 @@ nmap -iL '<filename which has list of ips>'
 nmap <ip address>
 nmap <domain name>
 nmap -p <port number> <ip address>
+nmap -p <portrange> <ip address>
